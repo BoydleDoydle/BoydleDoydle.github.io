@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0e4bef;
+}
+
+body {
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-nav {
+    font-size: 18px;
+    align-self: flex-end;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+li { 
+    display: inline;
+}
